@@ -1,0 +1,3 @@
+build g++ -O2 -std=c++17 -fPIC src/* -o build/BlackMesaMusic $(pkg-config --cflags --libs Qt6Widgets)
+setup mkdir build/
+clean rm -rf build/
